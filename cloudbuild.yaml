@@ -1,5 +1,3 @@
 steps:
-- name: gcr.io/cloud-builders/git
-  args: ['clone', 'git@github.com:eliasderoo/test-sourcerepo.git']
 - name: gcr.io/cloud-builders/gsutil
   args: ['cp', '.', 'gs://deploy_from_jenkins/']
