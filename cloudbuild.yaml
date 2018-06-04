@@ -1,3 +1,3 @@
 steps:
 - name: gcr.io/cloud-builders/gsutil
-  args: ['rsync', '-r', './test/test.txt', 'gs://deploy_from_jenkins/test/']
+  args: ['rsync', '-r', './test/', 'gs://deploy_from_jenkins/test/']
